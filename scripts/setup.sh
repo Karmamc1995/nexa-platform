@@ -39,10 +39,20 @@ touch modules/admin.js
 touch modules/games.js
 
 # GAMES
-touch games/guessNumber.js
+touc -platform
+
+
+
+
+
+
+
+
+games/guessNumber.js
 touch games/rps.js
 
 # SERVICES
+
 touch services/logger.js
 touch services/aiService.js
 
@@ -53,5 +63,4 @@ echo "📦 Installing dependencies..."
 npm init -y
 npm install vk-io dotenv
 
-echo "✅ NEXA structure created successfully!"
-echo "👉 Next step: add VK_TOKEN in .env"
+echo "✅ NEXA structure created succe
